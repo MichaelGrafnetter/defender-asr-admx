@@ -11,6 +11,10 @@
                   <string id="ExploitGuard_ASR_Rules_AdobeReader_Explain">Cette règle prévient les attaques en empêchant Adobe Reader de créer des processus.</string>
                   <string id="ExploitGuard_ASR_Rules_Office_CreateProcess">Empêcher toutes les applications Office de créer des processus enfants</string>
                   <string id="ExploitGuard_ASR_Rules_Office_CreateProcess_Explain">Cette règle empêche les applications Office de créer des processus enfants. Les applications Office incluent Word, Excel, PowerPoint, OneNote et Access.</string>
+                  <string id="ExploitGuard_ASR_Rules_Lsass">Bloquer le vol d'informations d'identification du sous-système de l'autorité de sécurité locale Windows (lsass.exe)</string>
+                  <string id="ExploitGuard_ASR_Rules_Lsass_Explain">Cette règle aide à prévenir le vol d'informations d'identification en bloquant les tentatives d'injection de code ciblant lsass.exe.
+
+L'activation de cette règle ne fournit pas de protection supplémentaire si la protection LSA est activée, car la règle ASR et la protection LSA fonctionnent de manière similaire. Cependant, lorsque la protection LSA ne peut pas être activée, cette règle peut être configurée pour fournir une protection équivalente contre les logiciels malveillants qui ciblent lsass.exe.</string>
                   <string id="ExploitGuard_ASR_Rules_Email">Bloquer le contenu exécutable du client de messagerie et du webmail</string>
                   <string id="ExploitGuard_ASR_Rules_Email_Explain">Cette règle empêche les e-mails ouverts dans l'application Microsoft Outlook, ou Outlook.com et d'autres fournisseurs de webmail populaires, de propager les types de fichiers suivants :
 
